@@ -81,7 +81,23 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    RI suvo
+                    {{--codition true  hole--}}
+                    {{--@if ($data ==='Friday')
+                        Today is holiday
+                        @elseif($data==='saturday')
+                        today is half work day
+                        @else
+                        today is working day
+                    @endif--}}
+
+
+
+                    {{--codition true na hole--}}
+                    {{--@unless($data === 'Friday')
+                        Today is working day must
+                        @endunless--}}
+
+                    {{--Blade tamplete documentation https://laravel.com/docs/5.8/blade#control-structures--}}
                 </div>
 
                 <div class="links">
