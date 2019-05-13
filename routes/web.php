@@ -72,4 +72,4 @@
         Route::resource('post','PostController');
     });*/
 
-    Route::get('/','Backend\FrontController@index');
+    Route::get('/','Frontend\FrontController@index');
