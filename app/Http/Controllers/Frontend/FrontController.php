@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class FrontController extends Controller
 {
-    public function index(){
+    /*public function index(){
         $data=[];
         $data['title']='Ecommerce';
         $data['date']=date('Y m d');
@@ -18,7 +18,7 @@ class FrontController extends Controller
             'bootstrap'=>'https://getbootstrap.com'
         ];
         return view('home',$data);
-    }
+    }*/
 
     public function user($id,$name=''){
         echo $id.''.$name;

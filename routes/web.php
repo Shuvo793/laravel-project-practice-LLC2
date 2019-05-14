@@ -72,4 +72,7 @@
         Route::resource('post','PostController');
     });*/
 
-    Route::get('/','Frontend\FrontController@index');
+    Route::get('/','backend\FrontController@index');
+    Route::get('/register','backend\FrontController@showRegistrationFrom')->name('register');
+    Route::post('/register','backend\FrontController@processRegistration');
+
